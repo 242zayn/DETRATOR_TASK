@@ -12,7 +12,7 @@ const ResponsiveComponents = () => {
   const isXl = useMediaQuery(theme.breakpoints.up("lg"));
 
   return (
-    <Boxst
+    <Box
       display="flex"
       flexDirection={isXs || isSm ? "column" : "row"}
       justifyContent={isXs || isSm ? "center" : "flex-start"}
